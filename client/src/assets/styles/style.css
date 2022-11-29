@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .full-height-header{
+        height: calc(100% - theme("spacing.20"));
+    }
+}
